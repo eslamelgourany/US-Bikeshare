@@ -53,12 +53,17 @@ In this project, there is a Python code to that uses US bikeshare data and answe
 
 ### File Description <a name="files"></a>
 
-There are 1 notebooks in this repository for different purpose:
-- The `bikeshare.py`: Starts to ask the user for input that is used to filter the data.
-1. Chicago.csv: 
-2. new_york_city.csv:  
-3. washington.csv: 
-  
+- The `bikeshare.py` file: Starts the script as it asks the user for input that is used to filter the data.
+
+The datasets are randomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six (6) columns:
+
+1. Start Time (e.g., 2017-01-01 00:07:57)
+2. End Time (e.g., 2017-01-01 00:20:53)
+3. Trip Duration (in seconds - e.g., 776)
+4. Start Station (e.g., Broadway & Barry Ave)
+5. End Station (e.g., Sedgwick St & North Ave)
+6. User Type (Subscriber or Customer)
+ 
  
 <!-- LICENSE -->
 
